@@ -23,3 +23,4 @@ echo "Alias berhasil dimuat! Perintah yang tersedia:"
 echo "  run-backup        : Jalankan backup sekali"
 echo "  start-backup-loop : Jalankan backup berulang di background"
 echo "  view-backup-log   : Lihat isi file log backup"
+# Versi: 1.0 - UTS Sistem Operasi
