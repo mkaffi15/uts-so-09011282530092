@@ -20,3 +20,24 @@ uts-so-09011282530092/
 │   └── alias.sh
 ├── README.md
 └── nim.txt
+## Cara menjalankan sistem
+```
+Panduan pengoperasian skrip di dalam lingkungan Linux:
+
+Memberikan Hak Akses Eksekusi (chmod)
+Sebelum skrip dapat dijalankan oleh sistem, seluruh file skrip di dalam folder script/ harus diberi izin akses eksekusi:
+
+Bash
+cd script/
+chmod +x backup.sh backup_loop.sh alias.sh
+cd ..
+Menjalankan Backup Manual
+Untuk melakukan proses pengarsipan dan kompresi data secara instan sebanyak satu kali:
+
+Bash
+./script/backup.sh
+Memuat Alias Terminal
+Untuk mengaktifkan pintasan perintah terminal agar dapat digunakan di sesi aktif:
+
+Bash
+source script/alias.sh
