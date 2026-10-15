@@ -26,3 +26,4 @@ while true; do
     fi
     sleep $INTERVAL
 done
+# Versi: 1.0 - UTS Sistem Operasi
