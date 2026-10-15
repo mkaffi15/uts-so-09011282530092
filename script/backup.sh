@@ -43,3 +43,4 @@ else
     echo "ERROR: Gagal membuat backup!"
     exit 1
 fi
+# Versi: 1.0 - UTS Sistem Operasi
